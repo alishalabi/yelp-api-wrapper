@@ -1,5 +1,4 @@
 const yelp = require('yelp-fusion')
-
 require('dotenv').config();
 const apiKEY = process.env.API_KEY
 
