@@ -1,0 +1,15 @@
+{
+  "name": "yelp-api-wrapper",
+  "version": "1.0.0",
+  "description": "The purpose of this project is to create an API for the Yelp Fusion API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "yelp-fusion": "^3.0.0"
+  }
+}
