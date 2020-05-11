@@ -23,7 +23,7 @@ class ApiWrapper {
   // Helper function to format return json
   formatNameReview(array) {
     const ret = array.map(business => {
-      return {name: business.name, rating: business.rating}
+      return {name: business.name, rating: business.rating, phone:business.phone}
     })
     return ret
   }
@@ -73,7 +73,7 @@ class ApiWrapper {
     const arrayLen = unfiltered.length
     const randomInt = Math.floor(Math.random() * Math.floor(arrayLen - 1))
     const business = unfiltered[randomInt]
-    return {name: business.name, rating: business.rating}
+    return {name: business.name, rating: business.rating, phone: business.phone}
   }
 
 }
