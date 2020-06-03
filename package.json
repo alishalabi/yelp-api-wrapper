@@ -1,6 +1,6 @@
 {
   "name": "yelp-api-wrapper",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "The purpose of this project is to create an API for the Yelp Fusion API.",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
     "yelp-fusion": "^3.0.0"
   },
   "devDependencies": {
-    "jest": "^26.0.1"
+    "jest": "25.2.7"
   },
   "directories": {
     "test": "tests"

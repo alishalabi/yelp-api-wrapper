@@ -23,7 +23,7 @@ class ApiWrapper {
   // Helper function to format return json
   formatNameReview(array) {
     const ret = array.map(business => {
-      return {name: business.name, rating: business.rating, phone:business.phone}
+      return {name: business.name, rating: business.rating, id: business.id, phone:business.phone, image_url: business.image_url, location: business.location}
     })
     return ret
   }
