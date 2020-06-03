@@ -73,7 +73,8 @@ class ApiWrapper {
     const arrayLen = unfiltered.length
     const randomInt = Math.floor(Math.random() * Math.floor(arrayLen - 1))
     const business = unfiltered[randomInt]
-    return {name: business.name, rating: business.rating, phone: business.phone}
+    const ret = this.formatNameReview(business)
+    return ret
   }
 
 }
